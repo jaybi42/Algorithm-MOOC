@@ -6,7 +6,7 @@
 #    By: jguthert <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/30 15:25:02 by jguthert          #+#    #+#              #
-#    Updated: 2016/09/11 15:21:43 by jguthert         ###   ########.fr        #
+#    Updated: 2016/09/11 17:51:12 by jguthert         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -18,7 +18,7 @@ CC = gcc
 
 ##=-  FLAGS -=##
 
-CFLAGS = -Wall -Wextra -g3 #-Werror
+CFLAGS = -Wall -Wextra #-g3 #-Werror
 
 
 ##=-  PATH  -=##
@@ -40,6 +40,8 @@ EOC:="\033[0m"
 ##=-  Files -=##
 
 FILES =					main			\
+						init_arrays		\
+						quick_union		\
 
 
 SRC := $(addprefix srcs/,$(addsuffix .c,$(FILES)))

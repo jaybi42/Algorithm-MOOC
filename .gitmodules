@@ -1,0 +1,3 @@
+[submodule "Percolation/libft"]
+	path = Percolation/libft
+	url = https://github.com/jaybi42/libft.git
